@@ -17,6 +17,7 @@ ul {
   list-style: none;
 }
 footer {
+  margin-top: 30px;
   background-color: rgb(18, 2, 0);
   padding: 70px 0;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;

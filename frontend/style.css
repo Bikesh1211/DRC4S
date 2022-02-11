@@ -45,14 +45,14 @@ body{
     background-image: linear-gradient(to right,#364AD4,#8B35D4);
     background-color: #364AD4;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 .mid-nav p{
     margin-bottom: 0;
     font-weight: 500;
     color: white;
     letter-spacing: .1em;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .mid-nav span{
     text-decoration: underline;

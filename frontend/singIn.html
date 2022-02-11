@@ -11,12 +11,9 @@
 
     
 
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-    />
-    <!-- font awesome -->
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+   <!-- font awesome -->
   </head>
   <body>
     <!-- nav bar -->
@@ -54,85 +51,20 @@
 
 
     <!-- singIn singOut -->
-    <div class="form">
-      
-        <ul class="tab-group">
-          <li class="tab active"><a href="#signup">Sign Up</a></li>
-          <li class="tab"><a href="#login">Log In</a></li>
-        </ul>
-        
-        <div class="tab-content">
-          <div id="signup">   
-            <h1>Sign Up for Free</h1>
-            
-            <form action="/" method="post">
-            
-            <div class="top-row">
-              <div class="field-wrap">
-                <label>
-                  First Name<span class="req">*</span>
-                </label>
-                <input type="text" required autocomplete="off" />
-              </div>
-          
-              <div class="field-wrap">
-                <label>
-                  Last Name<span class="req">*</span>
-                </label>
-                <input type="text"required autocomplete="off"/>
-              </div>
-            </div>
-  
-            <div class="field-wrap">
-              <label>
-                Email Address<span class="req">*</span>
-              </label>
-              <input type="email"required autocomplete="off"/>
-            </div>
-            
-            <div class="field-wrap">
-              <label>
-                Set A Password<span class="req">*</span>
-              </label>
-              <input type="password"required autocomplete="off"/>
-            </div>
-            
-            <button type="submit" class="button button-block"/>Get Started</button>
-            
-            </form>
-  
-          </div>
-          
-          <div id="login">   
-            <h1>Welcome Back!</h1>
-            
-            <form action="/" method="post">
-            
-              <div class="field-wrap">
-              <label>
-                Email Address<span class="req">*</span>
-              </label>
-              <input type="email"required autocomplete="off"/>
-            </div>
-            
-            <div class="field-wrap">
-              <label>
-                Password<span class="req">*</span>
-              </label>
-              <input type="password"required autocomplete="off"/>
-            </div>
-            
-            <p class="forgot"><a href="#">Forgot Password?</a></p>
-            
-            <button class="button button-block"/>Log In</button>
-            
-            </form>
-  
-          </div>
-          
-        </div><!-- tab-content -->
-        
-  </div> <!-- /form -->
+  <div class="sing-in-form">
+    <i class="fas fa-user"></i>
+      <h1>Sing Up Now</h1>
+      <form action="">
+          <input type="email" class="input-box" placeholder="Your Email">
+          <input type="password" class="input-box" placeholder="Your password">
+          <p><span><input type="checkbox"></span>I agree to terms and Condition </p>
+        <button type="button" class="singup-btn">Sing Up</button>
+        <hr>
+        <p class="or">OR</p>
+        <button type="button" class="facebook-btn">Login with Facebook</button>
+        <p>Do you have and account?<a href="#">Sing In</a></p>
+      </form>
+  </div>
 
 
     <!-- singIn singOut end -->

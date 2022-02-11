@@ -14,9 +14,7 @@ body{
     padding: 15px;
 }
 .logo{
-    background-color:#120200;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    color: white;
+    color: #364AD4;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -33,16 +31,19 @@ body{
 }
 .logo a{
     text-decoration: none;
-    color: white;
+    color: #364AD4;
     display: flex;
+}
+.logo span{
+    color: black;
 }
 .logo p{
     margin-top: 6px;
     font-weight: bold;
 }
 .mid-nav{
-    /* background-image: linear-gradient(to left,#FACD6D,#ED5B2D); */
-    background-color: #ED5B2D;
+    background-image: linear-gradient(to right,#364AD4,#8B35D4);
+    background-color: #364AD4;
     text-align: center;
     padding: 10px;
 }
@@ -79,20 +80,17 @@ body{
     color: rgb(8, 10, 14);
 }
 .links ul li a:hover{
-    color: #ED5B2D;
+    color: #364AD4;
 }
 .right-content a{
     text-decoration: none;
     font-weight: bold;
-    color: #ED5B2D;
+    color: #364AD4;
     padding: 5px;
     border-radius: 10px;
 }
 .right-content a:hover{
     background-color: rgb(245, 245, 245);
-}
-.sign-in{
-    color: blue;
 }
 .sign-in a{
     text-decoration: none;
@@ -126,5 +124,8 @@ body{
         display: block;
         margin-left: 50px;
         margin-right: 20px;
+    }
+    .sign-in{
+        margin-top: 30px;
     }
 }

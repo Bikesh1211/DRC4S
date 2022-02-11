@@ -20,7 +20,7 @@
 }
 .join-btn button:hover{
     color: white;
-    background-color: #120200;
+    background-color: #8A36D4;
 
 }
 .join-btn button{
@@ -30,9 +30,10 @@
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    background-color: #ED5B2D;
+    background-color: #364AD4;
     cursor: pointer;
     transition: all ease .5s;
+    color: white;
 }
 @media (max-width:700px) {
 

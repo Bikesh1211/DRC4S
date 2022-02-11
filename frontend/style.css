@@ -34,10 +34,7 @@ body{
     display: flex;
 }
 .logo p{
-    margin-top: 15px;
-}
-.logo a:hover{
-    color: white;
+    margin-top: 9px;
 }
 .mid-nav{
     background-color: #ED5B2D;
@@ -82,7 +79,18 @@ body{
 }
 .menu{
     display: none;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 1s;
+
 }
+.menu:hover{
+    background-color: rgb(240, 239, 239);
+}
+
+
 .right-content{
     display: flex;
 }

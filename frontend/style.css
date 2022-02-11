@@ -59,6 +59,9 @@ body{
     color: #fff4db;
     font-weight: 500;
 }
+.mid-nav span:hover{
+    color: #120200;
+}
 
 .links ul{
     display: flex;
@@ -73,6 +76,9 @@ body{
 .links ul li a{
     text-decoration: none;
     color: rgb(8, 10, 14);
+}
+.links ul li a:hover{
+    color: #ED5B2D;
 }
 .menu{
     display: none;

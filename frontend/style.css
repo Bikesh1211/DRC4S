@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+    margin: 10px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #4D44D4;
+    font-size: 18px;
+}
+.mid-nav{
+    background-color: #4D44D4;
+    height: 30px;
+}

@@ -18,7 +18,7 @@ ul {
 }
 footer {
   margin-top: 30px;
-  background-color: rgb(18, 2, 0);
+  background-color: hsl(249, 84%, 12%);
   padding: 70px 0;
   font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
@@ -42,7 +42,7 @@ footer {
   /* align-items: center; */
   left: 0;
   bottom: -10px;
-  background-color: #ed5b2d;
+  background-color: #8A36D4;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -81,7 +81,7 @@ footer {
   transition: all ease .5s;
 }
 .social-link .fab:hover{
-  color: #FACD6D;
+  color: black;
   transform: scale(1.3);
 }
 

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat:wght@100&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -15,8 +17,9 @@ ul {
   list-style: none;
 }
 footer {
-  background-image: linear-gradient(to right,#FACD6D,#ED5B2D);
+  background-color: rgb(18, 2, 0);
   padding: 70px 0;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif
 }
 
 .footer-col {
@@ -30,7 +33,6 @@ footer {
   margin-bottom: 30px;
   font-weight: 500;
   position: relative;
- 
 }
 
 .footer-col h4::before {
@@ -38,40 +40,49 @@ footer {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #ED5B2D;
+  background-color: #ed5b2d;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
 }
 
-.footer-col p{
+.footer-col p {
   color: #fff;
 }
 
-
-
-.footer-col ul li:not(:last-child){
+.footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
 }
 
-.footer-col ul li a{
+.footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
   color: #fff;
   text-decoration: none;
   font-weight: 300;
-  color: #fff;
+  color: #bbb;
   display: block;
   transition: all 0.3s ease;
 }
 
-.footer-col ul li a:hover{
+.footer-col ul li a:hover {
   color: #fff;
-  
 }
 
-.footer-col .social-link a{
+.footer-col .social-link a {
   color: #fff;
   padding: 5px;
 }
 
+/* responsive */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}

@@ -37,12 +37,12 @@ body{
     display: flex;
 }
 .logo p{
-    margin-top: 9px;
+    margin-top: 6px;
+    font-weight: bold;
 }
 .mid-nav{
     /* background-image: linear-gradient(to left,#FACD6D,#ED5B2D); */
     background-color: #ED5B2D;
-    color: #120200;
     text-align: center;
     padding: 10px;
 }

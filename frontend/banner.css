@@ -13,15 +13,10 @@
     margin-bottom: 20px;
     font-size: 2rem;
 }
-.join-btn{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
 .join-btn button:hover{
     color: white;
-    background-color: #8A36D4;
-
+    background-image: linear-gradient(to right,#364AD4,#8B35D4);
+    letter-spacing: 2px;
 }
 .join-btn button{
     padding: 20px;

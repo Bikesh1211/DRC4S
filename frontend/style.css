@@ -23,7 +23,7 @@ body{
     transition: all ease .5s;
 }
 .logo:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .logo img{
     width: 50px;
@@ -34,12 +34,17 @@ body{
     color: #364AD4;
     display: flex;
 }
+.logo a:hover{
+    color: #8B35D4;
+
+}
 .logo span{
-    color: black;
+    color: black
 }
 .logo p{
     margin-top: 6px;
     font-weight: bold;
+    font-size: 25px;
 }
 .mid-nav{
     background-image: linear-gradient(to right,#364AD4,#8B35D4);
@@ -58,10 +63,10 @@ body{
     text-decoration: underline;
     cursor: pointer;
     color: #fff4db;
-    font-weight: 500;
+    font-weight: bold;
 }
 .mid-nav span:hover{
-    color: #120200;
+    color: #000000;
 }
 
 .links ul{

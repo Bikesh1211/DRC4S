@@ -81,6 +81,22 @@ body{
 .links ul li a:hover{
     color: #ED5B2D;
 }
+.right-content a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ED5B2D;
+    padding: 5px;
+    border-radius: 10px;
+}
+.right-content a:hover{
+    background-color: rgb(245, 245, 245);
+}
+.sign-in{
+    color: blue;
+}
+.sign-in a{
+    text-decoration: none;
+}
 .menu{
     display: none;
     font-size: 30px;

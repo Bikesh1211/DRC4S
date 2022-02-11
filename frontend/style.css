@@ -7,10 +7,6 @@ body{
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
-.navbarNav{
-    display: flex;
-    justify-content: center;
-}
 
 .top-nav{
     display: flex;

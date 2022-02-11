@@ -1,0 +1,40 @@
+.banner{
+    height: 600px;
+    background-color: white;
+}
+.banner img{
+    width: auto;
+    object-fit: cover;
+    height: 600px;
+    float: right;
+}
+.banner article{
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.join-btn{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.join-btn button:hover{
+    color: white;
+    background-color: #120200;
+
+}
+.join-btn button{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ED5B2D;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+@media (max-width:700px) {
+
+    
+}

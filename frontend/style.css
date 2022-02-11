@@ -26,6 +26,18 @@ body{
 }
 .logo img{
     width: 50px;
+    object-fit: contain;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.logo p{
+    margin-top: 15px;
+}
+.logo a:hover{
+    color: white;
 }
 .mid-nav{
     background-color: #ED5B2D;
@@ -36,6 +48,10 @@ body{
 }
 .mid-nav p{
     margin-bottom: 0;
+    font-weight: 400;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: .1em;
 }
 .mid-nav span{
     text-decoration: underline;
@@ -57,4 +73,24 @@ body{
 .links ul li a{
     text-decoration: none;
     color: rgb(8, 10, 14);
+}
+.menu{
+    display: none;
+}
+.right-content{
+    display: flex;
+}
+
+@media (max-width:700px) {
+    .links{
+        display: none;
+    }
+    .top-nav{
+        justify-content:space-between;
+    }
+    .menu{
+        display: block;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
 }
